@@ -384,6 +384,7 @@ class DevtoolsDetector {
     }
 
     launch() {
+      /*
         if (this.detectLoopDelay <= 0) {
             this.setDetectDelay(500);
         }
@@ -391,6 +392,7 @@ class DevtoolsDetector {
             this.detectLoopStopped = false;
             this.detectLoop();
         }
+        */
     }
     
     stop() {
